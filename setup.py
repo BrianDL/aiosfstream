@@ -5,7 +5,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 
 INSTALL_REQUIRES = [
     #"aiocometd>=0.4.1,<0.5.0",
-    'aiocometd @ git+ssh://git@github.com/BrianDL/aiocometd@develop',
+    'aiocometd @ git+https://github.com/BrianDL/aiocometd@develop',
     "aiohttp>=3.1,<4.0"
 ]
 TESTS_REQUIRE = [
